@@ -23,20 +23,27 @@ This is a solution to the [Product Preview Card challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/ITLUCDEV/frontend-mentor-challenges/tree/master/product-preview-card)
-- Live Site URL: [Live Site](https://itlucdev.github.io/qrcode.com)
+- Live Site URL: [Live Site](https://lalvarez-product-preview-card.netlify.app/)
 
 ## My process
+
+I started by structuring all the content using HTML and then gradually incorporated design using CSS and Sass to style and enhance the appearance of the Product Preview Card component.
+
+In particular, I used Flexbox and CSS Grid to organize the different elements and adjust their position and size on the page. As I progressed through the project, I experimented with different style combinations and adjusted properties to achieve the desired outcome.
+
+Finally, I spent time editing the media query to try to fix some errors in the component's display on different screen sizes and devices. Overall, it was a challenging but rewarding process that allowed me to improve my skills in web design and development.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+- SASS
 
 ### What I learned
 
-I have improved my CSS knowledge by putting into practice what I have learned in the last courses I have been taking, going from theory to practice, I have learned how to manage margins, paddings and flexbox.
+During this project, I have improved my design skills and learned how to apply them to practice. However, I have found that I still have difficulties creating responsive designs that adapt to different devices and resolutions.
+
+Overall, this project has been an excellent opportunity to consolidate my HTML, CSS, and Sass skills, and to learn to work with different code components and structures. I am excited to continue improving and learning in future projects.
 
 ## Author
 
