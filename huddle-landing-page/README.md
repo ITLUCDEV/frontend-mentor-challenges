@@ -22,16 +22,11 @@ This is a solution to the [Huddle Landing Page challenge on Frontend Mentor](htt
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/ITLUCDEV/frontend-mentor-challenges/tree/master/product-preview-card)
-- Live Site URL: [Live Site](https://lalvarez-product-preview-card.netlify.app/)
+- Solution URL: [Solution URL](https://github.com/ITLUCDEV/frontend-mentor-challenges/tree/master/huddle-landing-page)
+- Live Site URL: [Live Site](https://lalvarezweb-huddle-landingpage.netlify.app/)
 
 ## My process
 
-I started by structuring all the content using HTML and then gradually incorporated design using CSS and Sass to style and enhance the appearance of the Product Preview Card component.
-
-In particular, I used Flexbox and CSS Grid to organize the different elements and adjust their position and size on the page. As I progressed through the project, I experimented with different style combinations and adjusted properties to achieve the desired outcome.
-
-Finally, I spent time editing the media query to try to fix some errors in the component's display on different screen sizes and devices. Overall, it was a challenging but rewarding process that allowed me to improve my skills in web design and development.
 
 ### Built with
 
@@ -41,9 +36,13 @@ Finally, I spent time editing the media query to try to fix some errors in the c
 
 ### What I learned
 
-During this project, I have improved my design skills and learned how to apply them to practice. However, I have found that I still have difficulties creating responsive designs that adapt to different devices and resolutions.
+Creating a landing page through the design provided by Frontend Mentor was a great learning experience for me. Using HTML5, CSS3, and SASS, I was able to structure and style a web page effectively and in an organized manner.
 
-Overall, this project has been an excellent opportunity to consolidate my HTML, CSS, and Sass skills, and to learn to work with different code components and structures. I am excited to continue improving and learning in future projects.
+Following the provided design, I gained an understanding of how to apply web design concepts in practice, such as the importance of visual hierarchy, color, typography, and content organization.
+
+In addition, using SASS, I learned how to utilize variables, and control structures to create reusable and maintainable styles. This can save me time and effort in future projects.
+
+Overall, creating this landing page has provided me with valuable skills and knowledge that will serve me well as a web developer. I am proud to have completed the Frontend Mentor challenge and am excited to continue on my path in web development.
 
 ## Author
 
