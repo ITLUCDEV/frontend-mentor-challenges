@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+// Colors
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$very-dark-cyan: hsl(179, 100%, 13%);
+$transparent-white: hsla(0, 0%, 100%, 0.75);
+$very-light-grey: hsl(0, 0%, 95%);
+
+// Fonts
+$lexend: 'Lexend Deca', sans-serif;
+$big-shoulders: 'Big Shoulders Display', cursive;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $very-light-grey;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    .cards {
+        display: flex;
+        flex-direction: row;
+        margin: 0rem 15rem;
+        .card {
+            padding: 8rem 3.7rem;
+            .sec-img {
+                margin-top: -4rem;
+                margin-bottom: 2rem;
+            }
+            .sec-title{
+                margin-bottom: 2rem;
+                font-family: $big-shoulders;
+                color: $very-light-grey;
+                text-transform: uppercase;
+                font-size: 1.3rem;
+            }
+            .sec-text{
+                font-family: $lexend;
+                color: $transparent-white;
+                margin-bottom: 5rem;
+            }
+            .sec-btn{
+                .btn-cta{
+                    background-color: white;
+                    padding: 1rem 3rem;
+                    border-radius: 2rem;
+                    border: none;
+                    font-family: $lexend;
+                }
+            }
+        }
+        
+        .sedan {
+            border-top-left-radius: 1rem;
+            border-bottom-left-radius: 1rem;
+            background-color: $bright-orange;
+            .sec-btn{
+                .btn-cta{
+                    color: $bright-orange;
+                }
+            }
+        }
+        
+        .suv {
+            background-color: $dark-cyan;
+            .sec-btn {
+                .btn-cta{
+                    color: $dark-cyan;
+                }
+            }
+        }
+        
+        .luxury {
+            border-top-right-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+            background-color: $very-dark-cyan;
+            .sec-btn {
+                .btn-cta{
+                    color: $very-dark-cyan;
+                }
+            }
+        }
+    }
+}
+

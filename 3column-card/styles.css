@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.container .cards {
+  display: flex;
+  flex-direction: row;
+  margin: 0rem 15rem;
+}
+.container .cards .card {
+  padding: 8rem 3.7rem;
+}
+.container .cards .card .sec-img {
+  margin-top: -4rem;
+  margin-bottom: 2rem;
+}
+.container .cards .card .sec-title {
+  margin-bottom: 2rem;
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+.container .cards .card .sec-text {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 5rem;
+}
+.container .cards .card .sec-btn .btn-cta {
+  background-color: white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+}
+.container .cards .sedan {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: hsl(31, 77%, 52%);
+}
+.container .cards .sedan .sec-btn .btn-cta {
+  color: hsl(31, 77%, 52%);
+}
+.container .cards .suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.container .cards .suv .sec-btn .btn-cta {
+  color: hsl(184, 100%, 22%);
+}
+.container .cards .luxury {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: hsl(179, 100%, 13%);
+}
+.container .cards .luxury .sec-btn .btn-cta {
+  color: hsl(179, 100%, 13%);
+}
+
+/*# sourceMappingURL=styles.css.map */
